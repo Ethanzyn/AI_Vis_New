@@ -22,7 +22,7 @@ body{
     padding:0px;
     border:solid 1px;
     border-color: white;
-    height:1050px;
+    height:1060px;
     
 }
 
@@ -30,7 +30,7 @@ body{
 
     padding-top:0px;
     margin-top:16px;
-    padding-bottom:330px;
+    padding-bottom:370px;
 }
 
 #subtitle{
@@ -157,7 +157,7 @@ li {
 
 #drawMoji {
     position:absolute;
-    bottom:-20%;
+    bottom:-25%;
     margin:auto;
     left:15%;
     font-size: 80px;
@@ -167,7 +167,7 @@ li {
 
 #instruction {
     position:absolute;
-    bottom:-20%;
+    bottom:-25%;
     margin:auto;
     right:15%;
     text-align: center;
@@ -294,7 +294,7 @@ canvas{
 
     width:250px;
     position:absolute;
-    bottom:-45%;
+    bottom:-50%;
     animation:fadein 1s ease-in;
     margin-left: auto; 
     margin-right:auto;
@@ -367,7 +367,7 @@ canvas{
 
     position:absolute;
     bottom:-55%;
-    right:5%;
+    right:3%;
     width:170px;
     
 }
@@ -376,7 +376,7 @@ canvas{
     color:white;
    
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 
 
 }
