@@ -261,7 +261,7 @@ function changeButton(x1,x2,y1,y2){
                 state = "compare"
                 var tag1 = "<span id ='percent'>"
                 var tag2 = "</span>"
-                var str = ['Look, Based on referenced area, you "think" ' + tag1+String(round(commonP*100))+"% "+tag2+"like this AI"]
+                var str = ['Look, based on referenced area, you "think" ' + tag1+String(round(commonP*100))+"% "+tag2+"like this AI"]
                 addNewType()
                 typestuff(commonP,str)
                 var compare = document.getElementById("compare")
