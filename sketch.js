@@ -95,7 +95,7 @@ function getGenderResult(imgName) {
 
 
 function draw(){
-    image(img,0,0,400,400)
+    image(img,0,0,600,600)
     let c2 = color(238,67,21,140)
    
     if(state == undefined){
