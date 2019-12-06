@@ -6,6 +6,9 @@ body{
     /* cursor: url('cursor.gif'),auto; */
     cursor: url('cursor.gif'),pointer;
     min-width: 600px;
+
+    overflow: hidden; /* Hide scrollbars */
+    
     /* cursor: url('cursor.gif'),auto; */
 }
 
