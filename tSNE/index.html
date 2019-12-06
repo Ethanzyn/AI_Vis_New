@@ -10,6 +10,32 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900&display=swap" rel="stylesheet">
+	<script>
+		(function() {
+		
+			const idleDurationSecs = 30;    // X number of seconds
+			const redirectUrl = "../index.html";  // Redirect idle users to this URL
+			let idleTimeout; // variable to hold the timeout, do not modify
+		
+			const resetIdleTimeout = function() {
+		
+				// Clears the existing timeout
+				if(idleTimeout) clearTimeout(idleTimeout);
+		
+				// Set a new idle timeout to load the redirectUrl after idleDurationSecs
+				idleTimeout = setTimeout(() => location.href = redirectUrl, idleDurationSecs * 1000);
+			};
+		
+			// Init on page load
+			resetIdleTimeout();
+		
+			// Reset the idle timeout on any of the events listed below
+			['click', 'touchstart', 'mousemove'].forEach(evt => 
+				document.addEventListener(evt, resetIdleTimeout, false)
+			);
+		
+		})();
+	  </script>
 </head>
 
 <body>
