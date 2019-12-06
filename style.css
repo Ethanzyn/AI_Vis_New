@@ -19,7 +19,7 @@ body{
     padding:0px;
     border:solid 1px;
     border-color: white;
-    height:800px;
+    height:1100px;
     
 }
 
@@ -127,7 +127,7 @@ li {
 .section {
     background-image: url("grid.png");
     background-repeat: repeat;
-    height:850px;
+    height:1100px;
     background-size:cover;
     margin:0px;
     padding:0px;
