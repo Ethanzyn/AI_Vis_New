@@ -154,7 +154,7 @@ li {
 
 #drawMoji {
     position:absolute;
-    bottom:-60%;
+    bottom:-40%;
     margin:auto;
     left:15%;
     font-size: 64px;
@@ -164,7 +164,7 @@ li {
 
 #instruction {
     position:absolute;
-    bottom:-60%;
+    bottom:-40%;
     margin:auto;
     right:10%;
     text-align: center;
@@ -281,7 +281,7 @@ canvas{
 #legend {
     width:250px;
     position: absolute;
-    bottom: -450px;
+    bottom: -40%;
     margin: auto;
     right:10%;
     animation:fadein 1s ease-in;
@@ -291,7 +291,7 @@ canvas{
 
     width:250px;
     position:absolute;
-    bottom:-85%;
+    bottom:-65%;
     animation:fadein 1s ease-in;
     margin-left: auto; 
     margin-right:auto;
