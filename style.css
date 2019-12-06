@@ -286,7 +286,7 @@ canvas{
     position: absolute;
     bottom: -20%;
     margin: auto;
-    right:10%;
+    right:15s%;
     animation:fadein 1s ease-in;
 }
 

@@ -261,7 +261,7 @@ function changeButton(x1,x2,y1,y2){
                 state = "compare"
                 var tag1 = "<span id ='percent'>"
                 var tag2 = "</span>"
-                var str = ['Based on referenced area, you "think" ' + tag1+String(round(commonP*100))+"% "+tag2+"like this AI"]
+                var str = ['Look, Based on referenced area, you "think" ' + tag1+String(round(commonP*100))+"% "+tag2+"like this AI"]
                 addNewType()
                 typestuff(commonP,str)
                 var compare = document.getElementById("compare")
@@ -322,9 +322,13 @@ function restart(){
          grid[i][j] = 0; 
         }
       }
-    var tag1 = "<span class ='Man'> man </span>"
-    var tag2 = "<span class = 'Woman'> woman</span>"
-    var str = ['Pretend that you are an AI system,does the celebrity looks more like a ' + tag1 + "or " + " a " + tag2]
+    var tag1 = "<span class ='man'>"
+    var text1 = "Man"
+    var tag2  = "</span>"
+    var tag3 = "<span class = 'woman'>"
+    var text2 = "woman"
+    var tag4 = "</span>"
+    var str = ['Pretend that you are an AI system,does the celebrity looks more like a ' + tag1 + text1 + tag2 + " or " + " a " + tag3+text2+tag4]
     addNewType()
     typestuff(commonP,str)
     var legend = document.getElementById("legend")
