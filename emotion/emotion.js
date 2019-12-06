@@ -8,8 +8,8 @@ var EmotionJSON;
 
 //d3.js 
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
-  width = 450 - margin.left - margin.right,
-  height = 450 - margin.top - margin.bottom;
+  width = 600 - margin.left - margin.right,
+  height = 600 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 
@@ -168,7 +168,7 @@ function createExample(){
 
 
 function setup (){
-  var canvas = createCanvas(450, 450);
+  var canvas = createCanvas(600, 600);
   canvas.parent('my_image');
   background(255);
   img = loadImage("../Dataset/img_align_celeba/1001.jpg")
@@ -197,7 +197,7 @@ function drawBorder(){
   stroke(fetchColor);
   noFill();
   strokeWeight(10);
-  rect(0,0,450,450);
+  rect(0,0,600,600);
 
   fill(fetchColor)
   var w = 40 + selectedEmotion.length * 7
@@ -210,7 +210,7 @@ function drawBorder(){
 
 function draw(){
   background(0)
-  image(img,0,0,450,450)
+  image(img,0,0,600,600)
   if((selectedEmotion !== 0) && (selectedEmotion !== undefined) ){
     fetchColor = color(selectedColor)
     

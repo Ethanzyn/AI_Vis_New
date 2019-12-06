@@ -46,7 +46,7 @@ function setup(){
     gridSize = 26;
     buttonState = 0;
     common = 0; 
-    var canvas = createCanvas(400, 400);
+    var canvas = createCanvas(600, 600);
     canvas.parent('p5js');
     background(255,255,255,100);
     
