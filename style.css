@@ -7,7 +7,7 @@ body{
     cursor: url('cursor.gif'),pointer;
     min-width: 600px;
 
-    overflow: hidden; /* Hide scrollbars */
+
     
     /* cursor: url('cursor.gif'),auto; */
 }
@@ -247,7 +247,7 @@ canvas{
 
 #tSNEp5 {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1300px;
     padding-top:10px;
     padding-bottom:20px
 
@@ -357,7 +357,7 @@ canvas{
 #prediction {
     padding-top:50px;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1300px;
     padding-bottom:20px;
     font-weight: 500;
 }

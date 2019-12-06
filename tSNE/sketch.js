@@ -7,7 +7,7 @@ var tSNEmode;
 let closestImage, closestDistance, winner;
 let xRows = 40;
 let yRows = 25;
-let cWidth = 1000;
+let cWidth = 1300;
 let cHeight = (cWidth/xRows)*yRows
 let datasetSize = 1000
 let xMarg = 5;
@@ -67,7 +67,7 @@ function makeDOMelements(){
 	// slider
 	scaleSlider = createSlider(1, 5, 1)
 	scaleSliderX = (width/2)+280;
-	scaleSliderY = 1110;
+	scaleSliderY = 1300;
 	scaleSliderW = cWidth/20;
 	scaleSlider.position(scaleSliderX, scaleSliderY)
 	scaleSlider.style('width', 'scaleSliderW')
