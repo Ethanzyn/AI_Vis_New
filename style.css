@@ -202,7 +202,7 @@ canvas{
     border-radius: 30px;
     border: solid rgba(255, 255, 255, .9) 1px;
     float: left;
-    width: 190px;
+    width: 280px;
     margin-left:10px;
     margin-top:20px;
     height: 40px;
@@ -212,7 +212,7 @@ canvas{
 #buttonSection {
 
     margin:auto;
-    width: 420px;
+    width: 620px;
 
 } 
 
@@ -272,7 +272,7 @@ canvas{
     text-decoration: underline;
     padding-top:50px;
     margin: auto;
-    width: 400px;
+    width: 600px;
     
     
 

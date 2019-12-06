@@ -254,7 +254,7 @@ function changeButton(x1,x2,y1,y2){
             buttonSection.removeChild(buttonSection.firstChild);
           }
         addElement("buttonSection","div","button",x1,x2)
-        document.getElementById("compare").style.width = "380px"
+        document.getElementById("compare").style.width = "580px"
         document.getElementById("compare").onclick = function(){
             if(state == "done"){
                 addLegend();
