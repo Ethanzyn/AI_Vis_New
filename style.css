@@ -19,7 +19,7 @@ body{
     padding:0px;
     border:solid 1px;
     border-color: white;
-    height:1100px;
+    height:1000px;
     
 }
 
@@ -27,7 +27,7 @@ body{
 
     padding-top:0px;
     margin-top:16px;
-    padding-bottom:150px;
+    padding-bottom:300px;
 }
 
 #subtitle{
@@ -190,7 +190,7 @@ li {
 #p5js{
     padding-top:10px;
     margin: auto;
-    width: 400px;
+    width: 600px;
 
 }
 
@@ -239,7 +239,7 @@ canvas{
 #visComponent {
     display:flex;
     margin: auto;
-    max-width: 900;
+    max-width: 1200;
 }
 
 #tSNEp5 {
