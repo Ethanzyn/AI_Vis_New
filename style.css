@@ -30,7 +30,7 @@ body{
 
     padding-top:0px;
     margin-top:16px;
-    padding-bottom:350px;
+    padding-bottom:330px;
 }
 
 #subtitle{
@@ -286,7 +286,7 @@ canvas{
     position: absolute;
     bottom: -20%;
     margin: auto;
-    right:15s%;
+    right:15%;
     animation:fadein 1s ease-in;
 }
 
@@ -362,4 +362,21 @@ canvas{
     font-weight: 500;
 }
 
+
+#link {
+
+    position:absolute;
+    bottom:-45%;
+    right:15%;
+    width:100px;
+    
+}
+
+#link a{
+    color:white;
+   
+    text-decoration: none;
+
+
+}
 

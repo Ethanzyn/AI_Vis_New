@@ -267,6 +267,15 @@ function changeButton(x1,x2,y1,y2){
                 var compare = document.getElementById("compare")
                 var text = document.querySelector('#compare h5')
                 text.innerHTML = "Try Again"
+                
+                var emolink = document.createElement("div"); //Create left div
+                emolink.id = "link"; //Assign div id
+                var a = document.createElement('a');
+                a.href =  "emotion/index.html"; // Insted of calling setAttribute 
+                a.innerHTML = "Explore Emotion Recognition ->" // <a>INNER_TEXT</a>
+                emolink.appendChild(a); // Append the link to the div
+                var parent = document.getElementById("genderSection")
+                parent.appendChild(emolink)
 
             } else {
                 restart();
