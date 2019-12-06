@@ -424,7 +424,7 @@ function drawFrame(c,t) {
     noFill();
     stroke(c);
     strokeWeight(10);
-    rect(0,0,400,400)
+    rect(0,0,600,600)
     fill(c)
     rect(0,0,100,40)
     fill(255);
