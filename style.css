@@ -367,8 +367,8 @@ canvas{
 
     position:absolute;
     bottom:-45%;
-    right:15%;
-    width:100px;
+    right:5%;
+    width:170px;
     
 }
 
@@ -376,6 +376,7 @@ canvas{
     color:white;
    
     text-decoration: none;
+    font-size: 18px;
 
 
 }
